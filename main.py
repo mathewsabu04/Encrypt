@@ -14,7 +14,7 @@ def caesar_decrypt(encrypted_message, key):
     message = encrypted_message.translate(cipher)
     return message
 
-message = 'Hello my name is Mathe Sabu'
+message = 'Hello my name is Mathew Sabu'
 key = 3
 
 encrypted_message = caesar_ecrypt(message,key)
