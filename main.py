@@ -14,7 +14,7 @@ def caesar_decrypt(encrypted_message, key):
     message = encrypted_message.translate(cipher)
     return message
 
-message = 'Hello my name is Mathew Sabu'
+message = input("Enter what you want to be encrypted: ")
 key = 3
 
 encrypted_message = caesar_ecrypt(message,key)
